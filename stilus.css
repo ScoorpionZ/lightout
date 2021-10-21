@@ -1,0 +1,16 @@
+main{
+    width:80%;
+    max-width: 800px;
+    margin:auto;
+    padding:10px;
+    background-color: white;
+}
+article{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+}
+div{
+    background-color: red;
+}
